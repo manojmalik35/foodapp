@@ -1,0 +1,68 @@
+/* large Tablets */
+@media only screen and (max-width: 1200px){
+    /* body{
+        background-color: red;
+    } */
+}
+
+/* tablets */
+@media only screen and (max-width: 850px){
+    /* body{
+        background-color: green;
+    } */
+}
+
+/* mobile screens */
+@media only screen and (max-width: 600px){
+    header{
+        height: 54vh;
+        background-repeat: no-repeat;
+    }
+
+    .showcase{
+        top: 3rem;
+        left: 4rem;
+    }
+
+    body{
+        font-size: 70%;
+    }
+
+    .main-icon{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+
+    ul{
+        display: block;
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+
+    li{
+        padding-bottom: 1rem;
+    }
+
+    .mobile-icon{
+        display: block;
+    }
+
+    .active{
+        display: none;
+    }
+
+    .container-parent, .howto-container, .comments-parent{
+        display: block;
+        text-align: center;
+    }
+
+    .heading-para{
+        padding: 0 0rem;
+    }
+
+    .comments{
+        height: 143vh;
+    }
+}
